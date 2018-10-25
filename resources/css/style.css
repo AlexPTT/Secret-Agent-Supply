@@ -127,3 +127,48 @@ footer{
     width: 47%;
   }
 }
+
+@media only screen and (max-width:470px)
+{
+  body{
+    width: auto;
+  }
+#banner{
+  height: 15rem;
+  width: auto;
+}
+.headline{
+  top: 10rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  width: auto;
+  padding: 1rem 2rem;
+}
+.headline h1{
+  font-size: 1rem;
+}
+.headline h3{
+  font-size: 0.77rem;
+}
+.watch{
+  display: none;
+}
+.product.pen{
+  display: flex;
+  padding-left: 1rem;
+  justify-content: center;
+  width: 90%;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+
+}
+.info .loc-hour{
+padding: 0.5rem 1rem;
+  width: 90%;
+}
+.copyright{
+  text-align: center;
+}
+}
